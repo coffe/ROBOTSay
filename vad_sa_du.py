@@ -15,8 +15,12 @@ except:
     print ("Det verkar som om du inte har * espeak * installerat på din dator?")
     quit()
 
+time.sleep(1)
+
 robot("Hallå")
      
+time.sleep(1)
+
 while True:
 
     robot ("Vad vill du att jag ska säga? ")
@@ -28,5 +32,7 @@ while True:
         break
 
     robot (text)
+
+    time.sleep(1)
 
 print ("Hejdå")
